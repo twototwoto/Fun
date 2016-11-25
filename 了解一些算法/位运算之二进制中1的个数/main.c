@@ -62,6 +62,13 @@ int main(int argc, const char * argv[]) {
 }
 
 
+/**
+ 求1的个数
+
+ @param n 所求的数
+
+ @return 传进去的数的二进制形式中1的个数
+ */
 int numberOf1(int n){
     int count = 0;
     while (n)
@@ -77,6 +84,14 @@ int numberOf1(int n){
 
 }
 
+
+/**
+ 求一个数二进制形式中1的个数的更优解
+
+ @param n 传进去的待求的参数
+
+ @return 返回的待求参数的二进制形式中1的个数
+ */
 int betterNumberOf1(int n){
     
     int count = 0;
@@ -99,12 +114,29 @@ int betterNumberOf1(int n){
  
  */
 
+
+/**
+ 判断一个数是否是2的整数次方
+
+ @param n 传进去的待求参数
+
+ @return 返回的是布尔类型的是否是2的整数次方
+ */
 _Bool judgeIs2Cifang(int n){
     
     return (n & (n-1))? 0 : 1;
 }
 
 
+
+/**
+ 两个数的二进制的形式相互转换的时候需要改动的次数
+
+ @param p 参数p
+ @param q 参数q
+
+ @return 返回p q相互转换所需的次数
+ */
 int numberOfTransform(int p, int q){
     
     int count = betterNumberOf1(p ^ q);
