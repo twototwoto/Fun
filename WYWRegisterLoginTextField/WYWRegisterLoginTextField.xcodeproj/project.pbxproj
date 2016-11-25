@@ -63,9 +63,6 @@
 				21F29DF51DE7F156003C497A /* ViewController.h */,
 				21F29DF61DE7F156003C497A /* ViewController.m */,
 				21F29DF81DE7F156003C497A /* Main.storyboard */,
-				21F29DFB1DE7F156003C497A /* Assets.xcassets */,
-				21F29DFD1DE7F156003C497A /* LaunchScreen.storyboard */,
-				21F29E001DE7F156003C497A /* Info.plist */,
 				21F29DEF1DE7F156003C497A /* Supporting Files */,
 			);
 			path = WYWRegisterLoginTextField;
@@ -74,6 +71,9 @@
 		21F29DEF1DE7F156003C497A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21F29DFB1DE7F156003C497A /* Assets.xcassets */,
+				21F29DFD1DE7F156003C497A /* LaunchScreen.storyboard */,
+				21F29E001DE7F156003C497A /* Info.plist */,
 				21F29DF01DE7F156003C497A /* main.m */,
 			);
 			name = "Supporting Files";
