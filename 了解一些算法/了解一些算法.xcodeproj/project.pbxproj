@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		21F29E131DE7FCB6003C497A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 21F29E121DE7FCB6003C497A /* main.c */; };
+		21F29E351DE81488003C497A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 21F29E341DE81488003C497A /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		21F29E0D1DE7FCB6003C497A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		21F29E301DE81488003C497A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		21F29E0F1DE7FCB6003C497A /* 了解一些算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "了解一些算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F29E121DE7FCB6003C497A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		21F29E321DE81488003C497A /* 位运算之二进制中1的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "位运算之二进制中1的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F29E341DE81488003C497A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		21F29E0C1DE7FCB6003C497A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F29E2F1DE81488003C497A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				21F29E111DE7FCB6003C497A /* 了解一些算法 */,
+				21F29E331DE81488003C497A /* 位运算之二进制中1的个数 */,
 				21F29E101DE7FCB6003C497A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				21F29E0F1DE7FCB6003C497A /* 了解一些算法 */,
+				21F29E321DE81488003C497A /* 位运算之二进制中1的个数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				21F29E121DE7FCB6003C497A /* main.c */,
 			);
 			path = "了解一些算法";
+			sourceTree = "<group>";
+		};
+		21F29E331DE81488003C497A /* 位运算之二进制中1的个数 */ = {
+			isa = PBXGroup;
+			children = (
+				21F29E341DE81488003C497A /* main.c */,
+			);
+			path = "位运算之二进制中1的个数";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 21F29E0F1DE7FCB6003C497A /* 了解一些算法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		21F29E311DE81488003C497A /* 位运算之二进制中1的个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F29E361DE81488003C497A /* Build configuration list for PBXNativeTarget "位运算之二进制中1的个数" */;
+			buildPhases = (
+				21F29E2E1DE81488003C497A /* Sources */,
+				21F29E2F1DE81488003C497A /* Frameworks */,
+				21F29E301DE81488003C497A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "位运算之二进制中1的个数";
+			productName = "位运算之二进制中1的个数";
+			productReference = 21F29E321DE81488003C497A /* 位运算之二进制中1的个数 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,10 @@
 				ORGANIZATIONNAME = ITCoderW;
 				TargetAttributes = {
 					21F29E0E1DE7FCB6003C497A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					21F29E311DE81488003C497A = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,6 +160,7 @@
 			projectRoot = "";
 			targets = (
 				21F29E0E1DE7FCB6003C497A /* 了解一些算法 */,
+				21F29E311DE81488003C497A /* 位运算之二进制中1的个数 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +171,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F29E131DE7FCB6003C497A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F29E2E1DE81488003C497A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F29E351DE81488003C497A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +286,20 @@
 			};
 			name = Release;
 		};
+		21F29E371DE81488003C497A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21F29E381DE81488003C497A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -244,6 +317,14 @@
 			buildConfigurations = (
 				21F29E171DE7FCB6003C497A /* Debug */,
 				21F29E181DE7FCB6003C497A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21F29E361DE81488003C497A /* Build configuration list for PBXNativeTarget "位运算之二进制中1的个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F29E371DE81488003C497A /* Debug */,
+				21F29E381DE81488003C497A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
