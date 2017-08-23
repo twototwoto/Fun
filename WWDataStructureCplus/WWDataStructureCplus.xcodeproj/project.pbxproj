@@ -10,6 +10,7 @@
 		8F14A18B1F4A9B3D00962A9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F14A18A1F4A9B3D00962A9B /* main.cpp */; };
 		8F14A19A1F4A9D3200962A9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F14A1991F4A9D3200962A9B /* main.cpp */; };
 		8F14A1A51F4A9FA200962A9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F14A1A41F4A9FA200962A9B /* main.cpp */; };
+		8F14A1CB1F4BF1FD00962A9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F14A1CA1F4BF1FD00962A9B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F14A1C61F4BF1FD00962A9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F14A1D11F4C0C7800962A9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +68,9 @@
 		8F14A1991F4A9D3200962A9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F14A1A21F4A9FA200962A9B /* WWSequenceQueueBasic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WWSequenceQueueBasic; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F14A1A41F4A9FA200962A9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F14A1C81F4BF1FD00962A9B /* WWLinkQueueBasic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WWLinkQueueBasic; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F14A1CA1F4BF1FD00962A9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F14A1D31F4C0C7800962A9B /* WWLinkQueueBasicTwo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WWLinkQueueBasicTwo; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +95,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F14A1C51F4BF1FD00962A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F14A1D01F4C0C7800962A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +118,7 @@
 				8F14A1891F4A9B3D00962A9B /* WWDataStructureCplus */,
 				8F14A1981F4A9D3200962A9B /* LinkStackBasicOperation */,
 				8F14A1A31F4A9FA200962A9B /* WWSequenceQueueBasic */,
+				8F14A1C91F4BF1FD00962A9B /* WWLinkQueueBasic */,
 				8F14A1881F4A9B3D00962A9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +129,8 @@
 				8F14A1871F4A9B3D00962A9B /* WWDataStructureCplus */,
 				8F14A1971F4A9D3200962A9B /* LinkStackBasicOperation */,
 				8F14A1A21F4A9FA200962A9B /* WWSequenceQueueBasic */,
+				8F14A1C81F4BF1FD00962A9B /* WWLinkQueueBasic */,
+				8F14A1D31F4C0C7800962A9B /* WWLinkQueueBasicTwo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +157,14 @@
 				8F14A1A41F4A9FA200962A9B /* main.cpp */,
 			);
 			path = WWSequenceQueueBasic;
+			sourceTree = "<group>";
+		};
+		8F14A1C91F4BF1FD00962A9B /* WWLinkQueueBasic */ = {
+			isa = PBXGroup;
+			children = (
+				8F14A1CA1F4BF1FD00962A9B /* main.cpp */,
+			);
+			path = WWLinkQueueBasic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +221,40 @@
 			productReference = 8F14A1A21F4A9FA200962A9B /* WWSequenceQueueBasic */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F14A1C71F4BF1FD00962A9B /* WWLinkQueueBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F14A1CC1F4BF1FD00962A9B /* Build configuration list for PBXNativeTarget "WWLinkQueueBasic" */;
+			buildPhases = (
+				8F14A1C41F4BF1FD00962A9B /* Sources */,
+				8F14A1C51F4BF1FD00962A9B /* Frameworks */,
+				8F14A1C61F4BF1FD00962A9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWLinkQueueBasic;
+			productName = WWLinkQueueBasic;
+			productReference = 8F14A1C81F4BF1FD00962A9B /* WWLinkQueueBasic */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F14A1D21F4C0C7800962A9B /* WWLinkQueueBasicTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F14A1D71F4C0C7800962A9B /* Build configuration list for PBXNativeTarget "WWLinkQueueBasicTwo" */;
+			buildPhases = (
+				8F14A1CF1F4C0C7800962A9B /* Sources */,
+				8F14A1D01F4C0C7800962A9B /* Frameworks */,
+				8F14A1D11F4C0C7800962A9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWLinkQueueBasicTwo;
+			productName = WWLinkQueueBasicTwo;
+			productReference = 8F14A1D31F4C0C7800962A9B /* WWLinkQueueBasicTwo */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +276,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
+					8F14A1C71F4BF1FD00962A9B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					8F14A1D21F4C0C7800962A9B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 8F14A1821F4A9B3D00962A9B /* Build configuration list for PBXProject "WWDataStructureCplus" */;
@@ -212,6 +301,8 @@
 				8F14A1861F4A9B3D00962A9B /* WWDataStructureCplus */,
 				8F14A1961F4A9D3200962A9B /* LinkStackBasicOperation */,
 				8F14A1A11F4A9FA200962A9B /* WWSequenceQueueBasic */,
+				8F14A1C71F4BF1FD00962A9B /* WWLinkQueueBasic */,
+				8F14A1D21F4C0C7800962A9B /* WWLinkQueueBasicTwo */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +329,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F14A1A51F4A9FA200962A9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F14A1C41F4BF1FD00962A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F14A1CB1F4BF1FD00962A9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F14A1CF1F4C0C7800962A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +481,34 @@
 			};
 			name = Release;
 		};
+		8F14A1CD1F4BF1FD00962A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F14A1CE1F4BF1FD00962A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F14A1D81F4C0C7800962A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F14A1D91F4C0C7800962A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,6 +537,7 @@
 				8F14A19D1F4A9D3200962A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F14A1A61F4A9FA200962A9B /* Build configuration list for PBXNativeTarget "WWSequenceQueueBasic" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +546,25 @@
 				8F14A1A81F4A9FA200962A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F14A1CC1F4BF1FD00962A9B /* Build configuration list for PBXNativeTarget "WWLinkQueueBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F14A1CD1F4BF1FD00962A9B /* Debug */,
+				8F14A1CE1F4BF1FD00962A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F14A1D71F4C0C7800962A9B /* Build configuration list for PBXNativeTarget "WWLinkQueueBasicTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F14A1D81F4C0C7800962A9B /* Debug */,
+				8F14A1D91F4C0C7800962A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
