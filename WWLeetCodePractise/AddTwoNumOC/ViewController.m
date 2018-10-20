@@ -18,13 +18,25 @@
     [super viewDidLoad];
     
     NSArray *arr = @[@(3), @(2), @(4)];
+    NSInteger target = 6;
     [[AddTwoNum new] twoSumWithArray:arr targetNum:6];
+    
+    NSMutableDictionary *dictM = [NSMutableDictionary dictionary];
+    for (NSInteger i = 0; i < arr.count; i++) {
+        [dictM setObject:@(i) forKey:arr[i]];
+    }
+    
+    for (NSInteger i = 0; i < arr.count; i++) {
+        NSNumber *matchValue = @(target - [arr[i] integerValue]);
+        if ([[dictM objectForKey:matchValue]integerValue] != i) {
+            NSLog(@"%@", @[@(i), [dictM objectForKey:matchValue]]);
+        }
+    }
 }
 
 
-
-
 @end
+
 
 @implementation AddTwoNum
 
@@ -40,23 +52,5 @@
     }
     return @[];
 }
-/**
- 
- class Solution {
- func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
- 
- for index in 0..<nums.count {
- for second in (index+1)..<nums.count {
- print(index, second);
- if (nums[index] + nums[second] == target) {
- print([index, second])
- return [index, second]
- }
- }
- }
- return [0, 0];
- }
- }
- 
- */
+
 @end
