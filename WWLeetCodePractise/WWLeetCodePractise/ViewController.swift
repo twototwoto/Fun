@@ -46,6 +46,29 @@ class ViewController: UIViewController {
     }
 }
 
+
+class Solution {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        
+        var dictM = [Int: Int]()
+        
+        for (currentIndex, currentValue) in nums.enumerated() {
+            dictM[currentValue] = currentIndex;
+        }
+        
+        for (currentIndex, currentValue) in nums.enumerated() {
+            if let matchIndex = dictM[target - currentValue] {
+                if matchIndex != currentIndex {
+                    print([currentIndex, matchIndex])
+                    return [currentIndex, matchIndex]
+                }
+            }
+        }
+        return [];
+    }
+}
+
+/**
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         
@@ -65,6 +88,8 @@ class Solution {
         return [];
     }
 }
+
+ */
 
 /**
  
