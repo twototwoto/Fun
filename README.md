@@ -16,3 +16,6 @@
 
 ## 链表
 - [反转链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8)
+
+## 查找
+- [查找](https://github.com/twototwoto/Fun/wiki/%E6%9F%A5%E6%89%BE)
