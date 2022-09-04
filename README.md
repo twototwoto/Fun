@@ -12,16 +12,17 @@
 
 # LeetCode 算法题
 ## 排序
-- [快速排序](https://github.com/twototwoto/Fun/wiki/%E6%8E%92%E5%BA%8F)
+- [912. 快速排序](https://github.com/twototwoto/Fun/wiki/%E6%8E%92%E5%BA%8F)
 
 ## 链表
 - [160. 相交链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8)
 - [141. 环形链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8)
-- [反转链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8)
+- [206. 反转链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8)
 - [21. 合并两个有序链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8)
+- [234. 回文链表](https://github.com/twototwoto/Fun/wiki/LeetCode-234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8)
 
 ## 查找
-- [查找](https://github.com/twototwoto/Fun/wiki/%E6%9F%A5%E6%89%BE)
+- [69. 查找](https://github.com/twototwoto/Fun/wiki/%E6%9F%A5%E6%89%BE)
 
 ## 字符串
 - [3. 无重复字符的最长子串](https://github.com/twototwoto/Fun/wiki/%E5%AD%97%E7%AC%A6%E4%B8%B2)
