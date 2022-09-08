@@ -15,6 +15,7 @@
 - [912. 快速排序](https://github.com/twototwoto/Fun/wiki/%E6%8E%92%E5%BA%8F)
 
 ## 链表
+- [2. 两数相加](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#2-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0)
 - [142. 环形链表 II](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8-ii)
 - [92. 反转链表 II](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#92-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8-ii)
 - [160. 相交链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8)
