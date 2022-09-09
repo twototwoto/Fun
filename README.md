@@ -23,6 +23,9 @@
 - [206. 反转链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8)
 - [21. 合并两个有序链表](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8)
 - [234. 回文链表](https://github.com/twototwoto/Fun/wiki/LeetCode-234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8)
+<br/>
+
+- [83. 删除排序链表中的重复元素](https://github.com/twototwoto/Fun/wiki/%E9%93%BE%E8%A1%A8#83-%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0)
 
 ## 查找
 - [69. 查找](https://github.com/twototwoto/Fun/wiki/%E6%9F%A5%E6%89%BE)
