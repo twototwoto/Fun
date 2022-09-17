@@ -35,6 +35,7 @@
 - [617. 合并二叉树](https://github.com/twototwoto/Fun/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91#617-%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91)
 - [226. 翻转二叉树](https://github.com/twototwoto/Fun/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91#226-%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91)
 - [404. 左叶子之和](https://github.com/twototwoto/Fun/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91#404-%E5%B7%A6%E5%8F%B6%E5%AD%90%E4%B9%8B%E5%92%8C)
+- [104. 二叉树的最大深度](https://github.com/twototwoto/Fun/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91#104-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6)
 
 ## 查找
 - [69. 查找](https://github.com/twototwoto/Fun/wiki/%E6%9F%A5%E6%89%BE)
