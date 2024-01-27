@@ -49,3 +49,7 @@
 ## 字符串
 - [3. 无重复字符的最长子串](https://github.com/twototwoto/Fun/wiki/%E5%AD%97%E7%AC%A6%E4%B8%B2)
 - [151. 反转字符串中的单词](https://github.com/twototwoto/Fun/wiki/LeetCode151.-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%8D%95%E8%AF%8D)
+
+## 其他
+- [LeetCode  50. Pow(x, n)](https://github.com/twototwoto/Fun/wiki/%E5%85%B6%E4%BB%96#leetcode--50-powx-n)
+
