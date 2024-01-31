@@ -53,3 +53,6 @@
 ## 其他
 - [LeetCode  50. Pow(x, n)](https://github.com/twototwoto/Fun/wiki/%E5%85%B6%E4%BB%96#leetcode--50-powx-n)
 
+## 数组
+- [LeetCode 2670. 找出不同元素数目差数组](https://github.com/twototwoto/Fun/wiki/%E6%95%B0%E7%BB%84#leetcode-2670-%E6%89%BE%E5%87%BA%E4%B8%8D%E5%90%8C%E5%85%83%E7%B4%A0%E6%95%B0%E7%9B%AE%E5%B7%AE%E6%95%B0%E7%BB%84)
+
